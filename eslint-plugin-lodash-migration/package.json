@@ -1,0 +1,11 @@
+{
+  "name": "eslint-plugin-lodash-migration",
+  "version": "1.0.0",
+  "description": "Custom ruleset to help with the migration from Lodash v3 to v4. Shamefully stolen.",
+  "author": "Griffin Moe",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "lib": "lib"
+  }
+}

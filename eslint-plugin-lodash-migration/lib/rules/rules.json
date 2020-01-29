@@ -1,0 +1,32 @@
+{
+  "pluck": "`_.pluck` is being removed, use `Array.prototype.map()` instead.",
+  "support": "`_.support` is being removed.",
+  "findWhere": "`_.findWhere` is being removed, use Array.prototype.find() instead.",
+  "where": "`_.where` is being removed, use _.Array.prototype.filter() instead.",
+
+  "first": "`_.first` is being renamed, use array destructuring instead.",
+  "indexBy": "`_.indexBy` is being renamed, good luck here's the docs: https://lodash.com/docs/3.10.1#indexBy",
+  "invoke": "`_.invoke` is being renamed, good luck here's the docs https://lodash.com/docs/3.10.1#invoke",
+  "pairs": "`_.pairs` is being renamed, use Object.prototype.entries() instead.",
+  "rest": "`_.rest` is being renamed, use array destructuring instead.",
+  "sortByOrder": "`_.sortByOrder` is being renamed, good luck here's the docs https://lodash.com/docs/3.10.1#sortByOrder",
+  "trunc": "`_.trunc` is being renamed, you should be using the `text-overflow` CSS property.",
+  "invert": "`_.invert` is being renamed to _.invertBy, good luck here's the docs https://lodash.com/docs/3.10.1#invert",
+  "isEqual": "`_.isEqual` is being renamed to _.isEqualWith. Be careful replacing, it accepts all types.",
+  "isMatch": "`_.isMatch` is being renamed to _.isMatchWith. Be careful replacing, it accepts all types.",
+  "merge": "`_.merge` is being renamed to _.mergeWith. Use object spread instead.",
+  "omit": "`_.omit` is being renamed to _.omitBy. Use object spread or `delete` keyword instead.",
+  "pick": "`_.pick` is being renamed to _.pickBy. Use object spread instead.",
+  "sample": "`_.sample` is being renamed to _.sampleSize. Good luck here's the docs https://lodash.com/docs/3.10.1#sample",
+  "sortedIndex": "`_.sortedIndex` is being renamed to _.sortedIndexBy. Good luck here's the docs https://lodash.com/docs/3.10.1#sortedIndex",
+  "sortedLastIndex": "`_.sortedLastIndex` is being renamed to _.sortedLastIndexBy. Good luck here's the docs https://lodash.com/docs/3.10.1#sortedIndex",
+  "sum": "`_.sum` is being renamed to _.sumBy. Use `Array.prototype.reduce()` instead.",
+  "zipObject": "`_.zipObject` is being renamed to _.fromPairs. Good luck here's the docs https://lodash.com/docs/3.10.1#zipObject",
+
+  "max": "`_.max` is being split into `_.max` and `_.maxBy` for arrays and objects respectively, consider Array.prototype.reduce() instead?",
+  "min": "`_.max` is being split into `_.max` and `_.maxBy` for arrays and objects respectively, consider Array.prototype.reduce() instead?",
+  "assign": "`_.assign` is being split into `_.assignWith` and `_.assignInWith`, use object spread instead.",
+  "assignIn": "`_.assignIn` is being split into `_.assignWith` and `_.assignInWith`, use object spread instead.",
+  "clone": "`_.clone` is being split into `_.cloneWith` and `_.cloneDeepWith`, use object spread instead.",
+  "cloneDeep": "`_.clone` is being split into `_.cloneWith` and `_.cloneDeepWith`, assuming no functions inside the object use `JSON.parse(JSON.stringify(objectToClone))`."
+}
