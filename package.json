@@ -1,27 +1,65 @@
 {
-  "name": "eslint-config-4c-all",
-  "author": "4C Insights",
-  "license": "UNLICENSED",
-  "version": "0.1.0",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "description": "ESLint config for frontend development. Services both React and Ember, extends core config.",
-  "dependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "~6.6.0"
+  "name": "eslint-config-standard",
+  "description": "JavaScript Standard Style - ESLint Shareable Config",
+  "version": "14.1.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org"
+  },
+  "bugs": {
+    "url": "https://github.com/standard/eslint-config-standard/issues"
   },
   "devDependencies": {
-    "@babel/core": "7",
-    "eslint-config-4c-core": "file:./eslint-config-4c-core",
-    "eslint-config-4c-frontend": "file:./eslint-config-4c-frontend",
-    "eslint-import-resolver-webpack": "~0.11.1",
-    "eslint-plugin-css-modules": "~2.11.0",
-    "eslint-plugin-jsx-a11y": "~6.2.3",
-    "eslint-plugin-react": "~7.16.0",
-    "eslint-plugin-react-hooks": "~1.7.0",
-    "eslint-plugin-you-dont-need-lodash-underscore": "~6.8.0",
-    "webpack": "4"
+    "eslint": "^6.2.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/standard/eslint-config-standard",
+  "keywords": [
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=6.2.2",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/standard/eslint-config-standard.git"
+  },
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "npm run lint && tape test/*.js"
   }
 }
